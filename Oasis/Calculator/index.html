@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" class="display" />
+      <div class="buttons">
+        <div class="first-row">
+          <button value="7" class="first-button">7</button>
+          <button value="8" class="first-button">8</button>
+          <button value="9" class="first-button">9</button>
+          <button class="operator first-button" value="+">+</button>
+        </div>
+        <div class="second-row">
+          <button value="4" class="second-button">4</button>
+          <button value="5" class="second-button">5</button>
+          <button value="6" class="second-button">6</button>
+          <button class="operator second-button" value="-">-</button>
+        </div>
+        <div class="third-row">
+          <button value="1" class="third-button">1</button>
+          <button value="2" class="third-button">2</button>
+          <button value="3" class="third-button">3</button>
+          <button class="operator third-button" value="*">&times;</button>
+        </div>
+        <div class="fourth-row">
+          <button value="0" class="fourth-button">0</button>
+          <button class="operator fourth-button" value=".">.</button>
+          <button class="operator fourth-button" value="/">&divide;</button>
+        </div>
+        <div class="fifth-row">
+          <button class="operator fifth-button" value="=">=</button>
+          <button class="operator fifth-button" value="clear">C</button>
+          <button class="operator fifth-button" value="backspace">&larr;</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

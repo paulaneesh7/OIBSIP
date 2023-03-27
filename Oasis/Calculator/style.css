@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 30px;
+    background-image: linear-gradient(rgba(34, 034, 34, 0.6), rgba(34, 34, 34, 0.6)), url(/Calculator/background-cal.jpg);
+    background-size: cover;
+}
+.calculator {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #13005A;
+    color: #fff;
+    border: 8px solid #FF0063;
+    border-radius: 20px;
+    height: 700px;
+}
+.display{
+    width: 500px;
+    height: 80px;
+    margin-top: 20px;
+    border: 8px solid #FF0063;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: #FFCEFE;
+    color: #13005A;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.first-row{
+    width: 500px;
+    height: 100px;
+    /* border: 10px solid black; */
+    margin-left: 28px;
+}
+
+.second-row{
+    width: 500px;
+    height: 100px;
+    /* border: 10px solid black; */
+    margin-left: 28px;
+
+}
+
+.third-row{
+    width: 500px;
+    height: 100px;
+    /* border: 10px solid black; */
+    margin-left: 28px;
+}
+
+.fourth-row{
+    width: 500px;
+    height: 100px;
+    /* border: 10px solid black; */
+    margin-left: 28px;
+}
+
+.fifth-row{
+    width: 500px;
+    height: 100px;
+    /* border: 10px solid black; */
+    margin-left: 28px;
+}
+.first-button{
+    width: 110px;
+    height: 70px;
+    border: 4px solid #FF0063;
+    border-radius: 20px;
+    margin-right: 10px;
+    background-color: #181818;
+    color: #00FFF6;
+    font-size: 25px;
+}
+.first-button:hover{
+    background-color: #FCFFE7;
+    color: #FF597B;
+}
+.second-button{
+    width: 110px;
+    height: 70px;
+    border: 4px solid #FF0063;
+    border-radius: 20px;
+    margin-right: 10px;
+    background-color: #181818;
+    color: #00FFF6;
+    font-size: 25px;
+}
+.second-button:hover{
+    background-color: #FCFFE7;
+    color: #FF597B;
+}
+.third-button{
+    width: 110px;
+    height: 70px;
+    border: 4px solid #FF0063;
+    border-radius: 20px;
+    margin-right: 10px;
+    background-color: #181818;
+    color: #00FFF6;
+    font-size: 25px;
+}
+.third-button:hover{
+    background-color: #FCFFE7;
+    color: #FF597B;
+}
+.fourth-button{
+    width: 150px;
+    height: 70px;
+    border: 4px solid #FF0063;
+    border-radius: 20px;
+    margin-right: 12px;
+    background-color: #181818;
+    color: #00FFF6;
+    font-size: 25px;
+}
+.fourth-button:hover{
+    background-color: #FCFFE7;
+    color: #FF597B;
+}
+.fifth-button{
+    width: 150px;
+    height: 70px;
+    border: 4px solid #FF0063;
+    border-radius: 20px;
+    margin-right: 12px;
+    background-color: #181818;
+    color: #00FFF6;
+    font-size: 25px;
+}
+.fifth-button:hover{
+    background-color: #FCFFE7;
+    color: #FF597B;
+}
